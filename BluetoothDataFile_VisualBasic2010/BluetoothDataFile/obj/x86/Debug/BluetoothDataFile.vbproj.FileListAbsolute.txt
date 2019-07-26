@@ -1,0 +1,12 @@
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.BluetoothDataFile.resources
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.Resources.resources
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.vbproj.GenerateResource.Cache
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\bin\Debug\BluetoothDataFile.exe
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\bin\Debug\BluetoothDataFile.pdb
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\bin\Debug\BluetoothDataFile.xml
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.exe
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.xml
+C:\Users\mathe\onedrive\documentos\visual studio 2010\Projects\BluetoothDataFile\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\Portifólio de engenharia\BluetoothDataFile\BluetoothDataFile_VisualBasic2010\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.exe
+C:\Users\mathe\OneDrive\Área de Trabalho\Portifólio de engenharia\BluetoothDataFile\BluetoothDataFile_VisualBasic2010\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.xml
+C:\Users\mathe\OneDrive\Área de Trabalho\Portifólio de engenharia\BluetoothDataFile\BluetoothDataFile_VisualBasic2010\BluetoothDataFile\obj\x86\Debug\BluetoothDataFile.pdb
