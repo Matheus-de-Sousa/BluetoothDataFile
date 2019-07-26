@@ -14,7 +14,7 @@ informar o que o usuário deseja, em resposta, o arduino com o módulo sdcard qu
 permitindo também que o usuário veja quais arquivos existem na raíz do sdcard, no caso dele optar por receber um arquivo.
 
 ## Como usar 
-Abra o aplicativo do Visual Basic na pasta BluetoothDataFile_VisualBasic2010\BluetoothDataFile\bin\Debug\BluetoothDataFile.exe, depois de aberto clique
+Carregue no arduino o programa na pasta BluetoothDataFile_Arduino\BluetoothDataFile_Arduino.ino e abra o aplicativo do Visual Basic na pasta BluetoothDataFile_VisualBasic2010\BluetoothDataFile\bin\Debug\BluetoothDataFile.exe, depois de aberto clique
 no botão "atualizar serial", selecione pela combo box a COM em que está emparelhado o módulo bluetooth e clique em "conectar a serial". Com isso basta escolher entre
 receber ou enviar um arquivo para o cartão SD.
 
