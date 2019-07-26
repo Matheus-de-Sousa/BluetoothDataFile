@@ -4,7 +4,7 @@ Projeto com o objetivo de enviar e receber arquivos em um computador, via blueto
 ## Lista de componentes
 * Arduino UNO
 * Módulo Bluetooth HC-05
-* Resistores de 1000, 100 e 2200ohms(um de cada) 
+* Resistores de 1000, 100 e 2200 ohms (um de cada) 
 * Módulo Sdcard
 ## Funcionamento
 Este projeto está dividido em duas partes que são: o programa do Visual Basic e o do arduino. O programa do Visual Basic, através da comunicação serial,
@@ -31,5 +31,5 @@ bem sucedida.
 
 ## Bugs e limitações
 Um dos bugs que podem ocorrrer é o de no recebimento do arquivo dados serem perdidos, o que fará com que o Visual Basic não consiga terminar a 
-transferência e ela não seja bem sucedida, além disso as velocidades de envio e recebimento de arquivos são consideravelmente baixas, principalmente a de envio,
+transferência e ela não seja bem sucedida, além disso as velocidades de envio e recebimento de arquivos são consideravelmente baixas (baud rate da COM serial é de 38400bps, por causa da perda de dados em velocidades maiores), principalmente a de envio,
 isso se deve as limitações nas bibliotecas que estão sendo utilizadas no arduino e no hardware do módulo bluetooth e da serial do arduino.
