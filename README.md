@@ -47,6 +47,6 @@ bem sucedida.
  Clique na imagem acima para ver um vídeo de como usar o programa
 
 ## Bugs e limitações
-Um dos bugs que podem ocorrrer é o de no recebimento do arquivo dados serem perdidos, o que fará com que o Visual Basic não consiga terminar a 
+Um dos bugs que podem ocorrer é o de no recebimento do arquivo dados serem perdidos, o que fará com que o Visual Basic não consiga terminar a 
 transferência e ela não seja bem sucedida, além disso as velocidades de envio e recebimento de arquivos estão consideravelmente baixas (O baud rate da COM serial está em 38400bps, por causa da perda de dados em velocidades maiores), principalmente a de envio,
 isso se deve às limitações no hardware do módulo bluetooth, na serial do arduino e nas bibliotecas que estão sendo utilizadas no programa do arduino.
