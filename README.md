@@ -31,9 +31,9 @@ Carregue no arduino o programa na pasta BluetoothDataFile_Arduino\BluetoothDataF
 no botão "atualizar serial", selecione pela combo box a COM em que está emparelhado o módulo bluetooth e clique em "conectar a serial". Com isso basta escolher entre
 receber ou enviar um arquivo para o cartão SD.
 
-**Receber arquivo:** Para receber um arquivo clique no botão "receber arquivo" e aguarde a caixa em branco abaixo do botão mostrar as opções de arquivo para receber da raíz do SD,
+**Receber arquivo:** Para receber um arquivo clique no botão "receber arquivo" e aguarde a caixa em branco abaixo do botão mostrar as opções de arquivos que podem ser recebidos da raíz do SD,
 escolha um arquivo com um clique duplo no nome dele, depois disso aparecerá uma mensagem perguntando se realmente deseja receber aquele arquivo, clique em "sim" e
-selecone um local para salvá-lo na nova janela que se abriu, agora basta aguardar que o recebimento seja concluído, monitorando a barra de progresso e esperando pela
+selecione um local para salvá-lo na nova janela que se abriu, agora basta aguardar que o recebimento seja concluído, monitorando a barra de progresso e esperando pela
 mensagem de conclusão de transferência. 
 
 **Enviar arquivo:** Para enviar um arquivo clique no botão de busca de arquivos ao lado da caixa de texto no formulário, selecione o arquivo que deseja enviar e clique no botão 
@@ -48,5 +48,5 @@ bem sucedida.
 
 ## Bugs e limitações
 Um dos bugs que podem ocorrrer é o de no recebimento do arquivo dados serem perdidos, o que fará com que o Visual Basic não consiga terminar a 
-transferência e ela não seja bem sucedida, além disso as velocidades de envio e recebimento de arquivos são consideravelmente baixas (baud rate da COM serial é de 38400bps, por causa da perda de dados em velocidades maiores), principalmente a de envio,
-isso se deve as limitações nas bibliotecas que estão sendo utilizadas no arduino e no hardware do módulo bluetooth e da serial do arduino.
+transferência e ela não seja bem sucedida, além disso as velocidades de envio e recebimento de arquivos estão consideravelmente baixas (O baud rate da COM serial está em 38400bps, por causa da perda de dados em velocidades maiores), principalmente a de envio,
+isso se deve às limitações no hardware do módulo bluetooth, na serial do arduino e nas bibliotecas que estão sendo utilizadas no programa do arduino.
