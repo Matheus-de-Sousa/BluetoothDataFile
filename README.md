@@ -1,17 +1,30 @@
 # BluetoothDataFile 
 Projeto com o objetivo de enviar e receber arquivos em um computador, via bluetooth, de um cartão SD conectado a um arduino, utilizando Arduino UNO, Visual Basic, Módulo Sdcard, comunicação serial e protocolo SPI.
 
+[**Código do arduino (C++)**](https://github.com/Matheus-de-Sousa/BluetoothDataFile/blob/master/BluetoothDataFile_Arduino/BluetoothDataFile_Arduino.ino)
+
+[**Código do Design do formulário (Visual Basic)**](https://github.com/Matheus-de-Sousa/BluetoothDataFile/blob/master/BluetoothDataFile_VisualBasic2010/BluetoothDataFile/Form1.Designer.vb)
+
+[**Código do formulário (Visual Basic)**](https://github.com/Matheus-de-Sousa/BluetoothDataFile/blob/master/BluetoothDataFile_VisualBasic2010/BluetoothDataFile/Form1.vb)
+
 ## Lista de componentes
 * Arduino UNO
 * Módulo Bluetooth HC-05
 * Resistores de 1000, 100 e 2200 ohms (um de cada) 
 * Módulo Sdcard
+
 ## Funcionamento
 Este projeto está dividido em duas partes que são: o programa do Visual Basic e o do arduino. O programa do Visual Basic, através da comunicação serial,
 se encarrega de permitir ao usuário se conectar com o módulo bluetooth HC-05 que está conectado a serial do arduino, possibilitando uma comunicação sem fio entre 
 o computador e o arduino, Após isso o usuário escolhe se deseja enviar ou receber um arquivo do Sdcard e o Visual Basic lida com a comunicação com o arduino para 
 informar o que o usuário deseja, em resposta, o arduino com o módulo sdcard que utiliza o protocolo SPI, acessa o cartão SD e lê ou salva um arquivo nele, 
 permitindo também que o usuário veja quais arquivos existem na raíz do sdcard, no caso dele optar por receber um arquivo.
+
+### Montagem do projeto
+![Montagem do projeto](https://github.com/Matheus-de-Sousa/BluetoothDataFile/raw/master/Montagem%20do%20projeto.jpg)
+  
+### Circuito do projeto
+![Circuito do projeto](https://github.com/Matheus-de-Sousa/BluetoothDataFile/blob/master/Circuito%20do%20projeto.png)
 
 ## Como usar 
 Carregue no arduino o programa na pasta BluetoothDataFile_Arduino\BluetoothDataFile_Arduino.ino e abra o aplicativo do Visual Basic na pasta BluetoothDataFile_VisualBasic2010\BluetoothDataFile\bin\Debug\BluetoothDataFile.exe, depois de aberto clique
@@ -28,6 +41,10 @@ mensagem de conclusão de transferência.
 
 **Obs:** O nome dos arquivos que serão recebidos e enviados devem ter no máximo 8 caracteres e mais 3 caracteres para a extensão, caso o contrário a transferência não será
 bem sucedida.
+
+### Aplicação do Visual Basic
+ [![Vídeo de exemplo](https://github.com/Matheus-de-Sousa/BluetoothDataFile/blob/master/Programa%20do%20Visual%20Basic.png)](https://www.youtube.com/watch?v=cI9FQWhDY0o&t) 
+ Clique na imagem acima para ver um vídeo de como usar o programa
 
 ## Bugs e limitações
 Um dos bugs que podem ocorrrer é o de no recebimento do arquivo dados serem perdidos, o que fará com que o Visual Basic não consiga terminar a 
